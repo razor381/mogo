@@ -519,6 +519,7 @@ body {
   padding: 1rem 0;
   background-color: #fce38a;
   border-right: 1px solid rgba(243, 129, 129, 0.3);
+  transition: all 0.2s ease-in;
 }
 
 .member-contact:last-of-type {
@@ -593,6 +594,8 @@ body {
 .work-overlay-wrapper {
   cursor: pointer;
   color: white;
+  max-width: 328px;
+  margin: 0 auto;
 }
 
 .work-title {
@@ -684,7 +687,8 @@ body {
 
 
 .blog {
-  margin: 4rem 0 5rem;
+  margin: 3rem auto;
+  max-width: 390px;
 }
 
 .blog__img-wrapper {
@@ -738,11 +742,9 @@ body {
   text-align: left;
 }
 
-
 .remark-icon {
   color: #95e1d3;
 }
-
 
 .blog-comments {
   margin-left: 1.3rem;
@@ -753,4 +755,41 @@ body {
   font-weight: 100;
   font-style: italic;
   color: #999999
+}
+
+
+/* map section */
+.map {
+  background-image: url("../img/bg-map.jpg");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.map-content {
+  padding: 2rem 0;
+}
+
+.pin-icon-wrapper img {
+  width: 1.5rem;
+  height: auto;
+}
+
+.open-map {
+  font-family: Montserrat;
+  font-weight: 900;
+  color: #f38181;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  margin-top: 0.8rem;
+}
+
+.map-dash {
+  display: inline-block;
+  width: 3rem;
+  height: 3px;
+  background-color: #f38181;
+  margin-top: 1rem;
 }
