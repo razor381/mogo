@@ -3,3 +3,177 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+.content-wrapper {
+  width: calc(100% - 2rem);
+  margin: 0 auto;
+}
+
+body {
+  font-family: Roboto;
+  font-size: 15px;
+  position: relative;
+}
+
+.header {
+  height: 5rem;
+  width: 100%;
+  display: table;
+  z-index: 30;
+}
+
+.header-content {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 1rem;
+}
+
+.header__logo {
+  float: left;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: bold;
+  display: table-cell;
+  vertical-align: middle;
+  color: white;
+}
+
+.header__nav-links {
+  margin-top: 0.5rem;
+  float: right;
+}
+
+.section-group {
+  float: left;
+}
+
+.header__nav-menu i {
+  color: white;
+  padding: 0 1rem;
+}
+
+.header__nav-icons {
+  float: left;
+  padding-top: 2px;
+}
+
+.header__nav-icon {
+  display: inline-block;
+  height: 100%;
+  margin: 0 0.5rem;
+}
+
+.header__nav-icon img {
+  width: 1.7rem;
+  height: 1.7rem;
+}
+
+.header__nav-sections {
+  display: none;
+}
+
+.welcome {
+  margin-top: -5rem;
+  padding-top: 5rem;
+  text-align: center;
+  color: white;
+  height: 35rem;
+  position: relative;
+}
+
+.welcome-background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image:
+    linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%),
+    url("../img/Layer_15.png");
+  background-size: cover;
+  background-position: center;
+  z-index: -10;
+}
+
+.welcome .center-content-wrapper {
+  height: 90.66%;
+  width: 100%;
+  display: table;
+}
+
+.welcome__center-content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.center-content__header-sm {
+  font-family: Kaushan;
+  font-size: 2em;
+  margin-bottom: 1rem;
+}
+
+.center-content__header-lg p {
+  font-family: Montserrat;
+  font-size: 3.5em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.center-content__dash-wrapper {
+  text-align: center;
+}
+
+.center-content__dash {
+  width: 60px;
+  display: inline-block;
+  height: 3px;
+  background-color: white;
+  margin: 1.5rem 0;
+}
+
+.center-content__learn-btn {
+  font-family: Montserrat;
+  font-size: 1em;
+  font-weight: bold;
+  border: 3px solid white;
+  color: white;
+  padding: 0.5rem 1.6rem;
+  text-transform: uppercase;
+}
+
+.welcome__leaders {
+  height: 2.8rem;
+  padding: 0 20%;
+}
+
+.welcome__leader {
+  display: inline-block;
+  width: 25%;
+  padding: 0.2rem;
+}
+
+.welcome__leader-dash {
+  background-color: white;
+  height: 3px;
+}
+
+.welcome__leader-dash--active {
+  background-color: #f38181;;
+}
+
+.welcome__leader-text {
+  display: none;
+  font-family: Montserrat;
+  text-align: left;
+}
+
+.leader-text__number {
+  font-weight: 500;
+  font-size: 1em;
+}
+
+.leader-text__label {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
