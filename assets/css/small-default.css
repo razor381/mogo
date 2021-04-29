@@ -602,3 +602,20 @@ body {
   font-weight: 100;
   margin-top: 0.7rem;
 }
+
+
+/* comments | testimonials-2 section */
+
+.comments-wrapper {
+  position: relative;
+  margin: 2rem 0;
+}
+
+.comment-user-pic {
+  width: 8rem;
+  height: auto;
+}
+
+.comment-wrapper {
+  padding: 0 4rem;
+}
