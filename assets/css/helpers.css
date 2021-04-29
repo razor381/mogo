@@ -3,3 +3,49 @@
   clear: both;
   display: table;
 }
+
+.section {
+  padding: 2rem 1rem;
+}
+
+.section__header-group {
+  margin: 1rem 0;
+  padding: 1rem 0 2rem;
+  position: relative;
+}
+
+.section__header-group::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10%;
+  z-index: 100;
+  border-bottom: 3px solid #f38181;
+}
+
+.section__subheader {
+  font-family: Kaushan;
+  font-size: 1.5em;
+}
+
+.section__header {
+  font-family: Montserrat;
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0.3rem;
+}
+
+.section__description {
+  margin: 2rem 0;
+  color: #999999;
+  font-family: Roboto;
+  padding: 0 1rem;
+}
+
+.section__content {
+  margin: 1rem 0;
+}
