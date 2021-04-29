@@ -291,7 +291,7 @@ body {
 
 
 .services {
-  margin: 2rem 0;
+  margin: 1rem 0 0;
 }
 
 .service {
@@ -331,4 +331,38 @@ body {
   color: #999999;
 }
 
+
+/* devices section */
+
+
+.devices {
+  background-image: url("../img/devices-bg.jpg");
+  background-position: center;
+  text-align: center;
+  padding: 2rem 1rem 0;
+}
+
+.devices-wrapper {
+  margin: 2rem auto 0;
+  text-align: center;
+  height: 300px;
+  width: 1px;
+  position: relative;
+}
+
+.devices__device-1 {
+  min-width: 245.87px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -8.5rem;
+}
+
+.devices__device-2 {
+  position: absolute;
+  top: 30%;
+  left: 2.5rem;;
+  min-width: 117.84px;
+  height: 250px;
+}
 
