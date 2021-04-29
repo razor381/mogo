@@ -503,6 +503,11 @@ body {
   margin-top: 3rem;
 }
 
+.member-pic-wrapper {
+  margin: 0 auto;
+  max-width: 380px;
+}
+
 .member-contact {
   color: #f38181;
   padding: 1rem 0;
@@ -541,4 +546,36 @@ body {
   font-family: Roboto;
   font-style: italic;
   font-size: 1.1em;
+}
+
+
+/* partners section */
+
+
+.partners {
+  background-color: #f8f8f8;
+}
+
+.partner-link {
+  width: 50%;
+  float: left;
+}
+
+.partner-link:nth-of-type(2n+1) {
+  clear: left;
+  border-right: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+
+.partner-link:nth-of-type(2n) {
+  border-bottom: 1px solid #cccccc;
+}
+
+.partner-link:nth-of-type(5),
+.partner-link:nth-of-type(6) {
+  border-bottom: none;
+}
+
+.partner-link img {
+  transform: scale(0.8, 0.8);
 }
