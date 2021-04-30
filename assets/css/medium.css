@@ -2,9 +2,13 @@
 
   /* header section */
 
+
+  .header-content {
+    padding: 0 2rem;
+  }
+
   .header__nav-sections {
     display: block;
-    background: red;
   }
 
   .header__nav-menu {
@@ -151,6 +155,7 @@
 
   .saying:nth-of-type(2n+1) {
     float: right;
+    width: 50%;
   }
 
 

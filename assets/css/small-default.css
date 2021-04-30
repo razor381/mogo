@@ -330,6 +330,7 @@ body {
 .service__info-title {
   font-family: Montserrat;
   font-size: 1.2em;
+  font-weight: 500;
   text-transform: uppercase;
 }
 
