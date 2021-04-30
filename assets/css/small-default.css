@@ -63,18 +63,13 @@ body {
 
 .header__nav-icons {
   float: left;
-  padding-top: 2px;
 }
 
 .header__nav-icon {
   display: inline-block;
   height: 100%;
   margin: 0 0.5rem;
-}
-
-.header__nav-icon img {
-  width: 1.7rem;
-  height: 1.7rem;
+  color: white;
 }
 
 .header__nav-sections {
@@ -206,7 +201,6 @@ body {
 }
 
 .aboutus__img-wrapper {
-  max-height: 380px;
   max-width: 250px;
   margin: 0 auto 1.5rem;
   cursor: pointer;
