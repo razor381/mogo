@@ -42,9 +42,9 @@ body {
   font-family: Montserrat;
   font-size: 30px;
   font-weight: bold;
+  color: white;
   display: table-cell;
   vertical-align: middle;
-  color: white;
 }
 
 .header__nav-links {
@@ -792,4 +792,152 @@ body {
   height: 3px;
   background-color: #f38181;
   margin-top: 1rem;
+}
+
+
+/* footer section */
+
+
+.footer {
+  padding: 2rem 1rem;
+}
+
+.footer-wrapper {
+  border-bottom: 1px solid #e5e5e5;
+
+}
+
+.footer__left-logo {
+  font-family: Montserrat;
+  font-size: 46px;
+  font-weight: 900;
+  color: #cccccc;
+}
+
+.footer__left-description {
+  font-family: Roboto;
+  font-size: 0.9em;
+  line-height: 1.5em;
+  text-align: left;
+  margin: 2rem 0;
+  color: #999999;
+}
+
+.footer__follower-record {
+  font-family: Montserrat;
+  color: #333333;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 1rem;
+  font-size: 0.9em;
+}
+
+.footer__follower-number {
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+.footer__social-icons {
+  margin-top: 1rem;
+  color: #999999;
+  font-family: Roboto;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.footer__social-icons a {
+  color: #95e1d3;
+  margin-left: 0.5rem;
+}
+
+.footer__social-icons a:first-of-type {
+  margin-left: 0.9rem;
+}
+
+.footer__subscription {
+  margin: 2rem 0;
+  height: 40px;
+  font-size: 0.9em;
+}
+
+.footer__subscription-input {
+  border: 1px solid #e7e7e7;
+  font-family: Roboto;
+  font-weight: 100;
+  font-style: italic;
+  color: #cccccc;
+  height: 100%;
+  padding: 0 0.8rem;
+  display: inline-block;
+}
+
+.footer__subscrption-btn {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  background-color: #95e1d3;
+  color: white;
+  padding: 0 1rem;
+  height: 100%;
+  display: inline-block;
+}
+
+.footer__blogs {
+  margin-top: 2rem;
+}
+
+.footer__blog {
+  margin: 2rem 0;
+}
+
+.footer__blog-img {
+  float: left;
+  max-width: 119px;
+}
+
+.footer__blog-info {
+  float: left;
+  width: calc(100% - 119px);
+  padding: 0.5rem 1rem 0;
+}
+
+.footer__blog-title {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 0.8em;
+  color: #333333;
+  text-transform: uppercase;
+}
+
+.footer__blog-date {
+  font-family: Roboto;
+  font-style: italic;
+  color: #999999;
+  font-size: 0.8em;
+  margin-top: 0.3rem;
+}
+
+.footer__instagram {
+  margin: 4rem 0;
+}
+
+.footer__gallery-wrapper {
+  margin: 2rem 0 1rem;
+}
+
+.footer__view-more {
+  margin-top: 1rem;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 0.8;
+  color: #333333;
+}
+
+.footer__end-text {
+  padding-top: 1rem;
+}
+
+.template-author {
+  color: #f38181;
 }
