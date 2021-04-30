@@ -28,7 +28,8 @@ body {
   height: 5rem;
   width: 100%;
   display: table;
-  z-index: 30;
+  z-index: 100;
+  position: relative;
 }
 
 .header-content {
@@ -61,8 +62,34 @@ body {
   padding: 0 1rem;
 }
 
+.header__nav-menu i:hover {
+  color: #fce38a;
+}
+
+.header__nav-section {
+  float: left;
+  font-family: Montserrat;
+  font-size: 0.9em;
+  margin-right: 0.8rem;
+  font-weight: 500;
+}
+
+.header__nav-section a {
+  color: white;
+  padding-bottom: 0.5rem;
+}
+
+.header__nav-section a:hover {
+  color: #fce38a;
+  border-bottom: 3px solid #fce38a;
+}
+
 .header__nav-icons {
   float: left;
+}
+
+.header__nav-icons a:hover {
+  color: #fce38a;
 }
 
 .header__nav-icon {
@@ -169,6 +196,7 @@ body {
 .welcome__leader-dash {
   background-color: white;
   height: 3px;
+  border-radius: 3px;
 }
 
 .welcome__leader-dash--active {
@@ -214,7 +242,7 @@ body {
   font-weight: 700;
   font-family: Montserrat;
   text-transform: uppercase;
-  margin-top: 0.3rem;
+  margin-top: 0.6rem;
 }
 
 .aboutus__img {
@@ -798,7 +826,6 @@ body {
 
 .footer-wrapper {
   border-bottom: 1px solid #e5e5e5;
-
 }
 
 .footer__left-logo {
@@ -930,6 +957,7 @@ body {
 
 .footer__end-text {
   padding-top: 1rem;
+  text-align: center;
 }
 
 .template-author {

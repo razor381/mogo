@@ -48,6 +48,7 @@
 
 .overlay-wrapper {
   position: relative;
+  line-height: 0
 }
 
 .gradient-overlay {
@@ -62,6 +63,7 @@
   display: table;
   opacity: 0;
   transition: all 0.2s ease;
+  line-height: normal;
 }
 
 .gradient-overlay-content {
@@ -80,4 +82,11 @@ h2 {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+@media only screen and (min-width: 560px) {
+  .section__content {
+    margin: 1rem 0;
+    padding: 0 4rem;
+  }
 }
