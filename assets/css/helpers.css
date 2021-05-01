@@ -48,7 +48,7 @@
 
 .overlay-wrapper {
   position: relative;
-  line-height: 0
+  line-height: 0;
 }
 
 .gradient-overlay {
@@ -137,6 +137,7 @@ h2 {
   .section__description {
     margin: 3rem 0;
     padding: 0 20%;
+    font-size: 1.1em;
   }
 
 }

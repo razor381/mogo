@@ -203,48 +203,104 @@
 
   /* partners */
 
-
-  .partner-link {
-    width: 16.6667%
+  .partners-wrapper {
+    padding: 0 15%;
   }
 
-  /* @TODO: find alternative method */
-  .partner-link:nth-of-type(2n+1),
-  .partner-link:nth-of-type(2n),
-  .partner-link:nth-of-type(5),
-  .partner-link:nth-of-type(6),
-  .partner-link:nth-of-type(1),
-  .partner-link:nth-of-type(2),
-  .partner-link:nth-of-type(3) {
+
+  .partner-link {
+    width: 16.6667%;
+  }
+
+  .partner-link:nth-of-type(n) {
     border: none;
     clear: none;
+    border-right: 1px solid #cccccc;
+  }
+
+  .partner-link:last-of-type {
+    border-right: none;
   }
 
 
   /* work section */
 
-
-  .work-overlay-wrapper {
-    float: left;
-    max-width: 30.33%;
+  .work {
+    padding: 0;
+    margin: 0;
   }
 
-  .work-overlay-wrapper:nth-of-type(2n+1) {
-    clear: both;
+  .work-images-wrapper {
+    position: relative;
+  }
+
+  .work__content--desktop {
+    padding: 0;
+  }
+
+  .work-overlay-wrapper {
+    max-width: 25%;
+    margin: 0;
+  }
+
+  /* @TODO: find alternate way to make responsive */
+  .work-overlay-wrapper:last-of-type {
+    position: absolute;
+    bottom: 0;
+    right: 0;
   }
 
 
   /* comments section */
 
   .comments {
-    height: 30rem;
+    padding: 3rem 15%;
+  }
+
+  .comments-wrapper {
+    padding: 0 4rem;
+  }
+
+  .comment-wrapper {
+    all: revert;
+  }
+
+  .comment-pic-wrapper {
+    width: 15rem;
+  }
+
+  .comment-user-pic {
+    width: 210px;
+    height: 210px;
+  }
+
+  .comment-body {
+    float: right;
+    width: calc(100% - 15rem);
+    padding: 1.5rem 4rem 0 2rem;
+    text-align: left;
   }
 
 
   /* sayings section */
 
 
-  .saying {
+  .sayings-content {
+    padding: 0 15%;
+  }
+
+  .client-img {
+    float: left;
+  }
+
+  .saying-body {
+    float: right;
+    text-align: left;
+    max-width: calc(100% - 110px);
+    padding: 0 2rem 0 3rem;
+  }
+
+  .client-saying {
     padding: 0;
   }
 
@@ -258,5 +314,45 @@
     margin: 0 1rem;
   }
 
+
+  /* footers section */
+
+
+  .footer__left-group,
+  .footer__blogs-wrapper,
+  .footer__instagram {
+    all: revert;
+    float: left;
+  }
+
+  .footer__left-group {
+    width: 40%;
+    padding-right: 3rem;
+    box-sizing: border-box;
+  }
+
+  .footer__blogs-wrapper {
+    width: 35%;
+  }
+
+  .footer__blog {
+    padding-right: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .footer__instagram {
+    width: 25%;
+  }
+
+  .footer__gallery-img {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin: 2px;
+  }
+
+  .footer__gallery-img:nth-of-type(3n+1) {
+    clear: left;
+  }
 
 }

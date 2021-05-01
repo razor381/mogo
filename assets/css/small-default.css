@@ -644,9 +644,17 @@ body {
   margin: 2rem 0;
 }
 
+.comment-pic-wrapper {
+  display: inline-block;
+}
+
 .comment-user-pic {
   width: 8rem;
   height: auto;
+}
+
+.comment-body {
+  margin-top: 1rem;
 }
 
 .comment-wrapper {
@@ -670,6 +678,10 @@ body {
 
 .saying {
   margin: 4rem 0;
+}
+
+.client-saying {
+  padding: 0 1rem;
 }
 
 .client-info {
@@ -834,6 +846,7 @@ body {
   font-size: 46px;
   font-weight: 900;
   color: #cccccc;
+  text-transform: none;
 }
 
 .footer__left-description {

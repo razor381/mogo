@@ -93,6 +93,10 @@
   }
 
 
+  /* testimonials section */
+
+
+
   /* partners section */
 
 
@@ -105,11 +109,7 @@
     width: 33.33%;
   }
 
-  /* @TODO: will find alternative to this */
-  .partner-link:nth-of-type(2n+1),
-  .partner-link:nth-of-type(2n),
-  .partner-link:nth-of-type(5),
-  .partner-link:nth-of-type(6) {
+  .partner-link:nth-of-type(n) {
     border: none;
     clear: none;
     border-right: 1px solid #cccccc;
@@ -144,18 +144,32 @@
   }
 
 
+  /* comments section  */
+
+
+  .comment-body {
+    padding: 0 3rem;
+  }
+
+
   /* sayings section */
 
-
-  .saying {
-    float: left;
-    width: 50%;
+  .sayings-content {
     padding: 0 2rem;
   }
 
-  .saying:nth-of-type(2n+1) {
-    float: right;
+  .sayings-wrapper {
+    margin-bottom: 0;
+  }
+
+  .saying {
+    float: left;
+    margin: 2rem 0;
     width: 50%;
+  }
+
+  .saying:nth-of-type(2n+1) {
+    clear: both;
   }
 
 
