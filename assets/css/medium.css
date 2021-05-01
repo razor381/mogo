@@ -93,10 +93,6 @@
   }
 
 
-  /* testimonials section */
-
-
-
   /* partners section */
 
 
@@ -147,12 +143,38 @@
   /* comments section  */
 
 
+  .comments {
+    padding: 2rem 2rem 1rem;
+  }
+
+  .comments-wrapper {
+    padding: 0 4rem;
+  }
+
+  .comment-wrapper {
+    all: revert;
+  }
+
+  .comment-user-pic {
+    width: 9rem;
+    height: 9rem;
+  }
+
   .comment-body {
-    padding: 0 3rem;
+    float: right;
+    width: calc(100% - 9rem);
+    margin: 0;
+    padding: 1rem 2rem 0 2rem;
+    text-align: left;
+  }
+
+  .testi-body {
+    padding: 0 2rem 0 2rem;
   }
 
 
   /* sayings section */
+
 
   .sayings-content {
     padding: 0 2rem;
@@ -174,6 +196,7 @@
 
 
   /* footer section */
+
 
   .footer {
     padding: 2rem 4rem;
