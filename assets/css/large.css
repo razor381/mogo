@@ -48,12 +48,9 @@
   }
 
   .aboutus__img-wrapper {
-    margin: 0 0.5rem;
-  }
-
-  .aboutus__img-wrapper {
-    float: left;
-    width: calc(33.33% - 1rem);
+    display: inline-block;
+    max-width: calc(33.33% - 2.2rem);
+    margin: 0 1rem;
   }
 
 
@@ -120,50 +117,65 @@
     bottom: -4rem;
   }
 
+
   /* tasks section */
 
-
-  .tasks-img {
-    float: left;
-    width: 49%;
+  .tasks-content {
+    height: 380px;
   }
 
+  .tasks-img,
   .tasks-explanation {
-    float: right;
-    width: 49%;
+    display: inline-block;
+    max-width: calc(50% - 1rem);
+    vertical-align: top;
     margin: 0;
   }
 
+  .tasks-explanation {
+    height: 100%;
+  }
+
+  .tasks-img {
+    margin-right: 1rem;
+  }
+
   .task {
-    margin: 0 0 1rem 0;
+    margin-top: 0;
   }
 
-  .task-header__title {
-    padding: 1rem 2rem 1rem 3.5rem;
-    font-size: 0.9em;
+  .task:first-of-type {
+    height: calc(100% - (2 * 60.6px) - 1.3rem);
   }
 
-  .task-header__left-icon {
-    position: absolute;
-    left: 10px;
-    top: 0.5rem;
-    transform: scale(0.8, 0.8);
-  }
-
-  .task-header__right-icon {
-    position: absolute;
-    right: 1rem;
-    top: 1.2rem;
-    transform: scale(0.8, 0.8);
-  }
-
-  .task:nth-of-type(2) .task-body,
-  .task:nth-of-type(3) .task-body{
-    display: none;
+  .task-body,
+  .task-description,
+  .task-scrollarea {
+    all: revert;
   }
 
   .task-body {
-    height: 8rem;
+    height: calc(100% - 60.6px);
+  }
+
+  .task-description {
+    font-family: Roboto;
+    font-weight: 100;
+    font-style: italic;
+    color: #999999;
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    width: 40%;
+    overflow: scroll;
+  }
+
+  .task-scrollarea {
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    width: 40%;
+
   }
 
 
@@ -332,8 +344,9 @@
 
 
   .blog {
-    float: left;
-    width: calc((100% - 6rem)/3);
+    display: inline-block;
+    vertical-align: top;
+    max-width: calc(33.33% - 2.2rem);
     margin: 0 1rem;
   }
 
