@@ -34,6 +34,11 @@
     margin-top: 2rem;
   }
 
+  .welcome__leader-text {
+    margin-top: 0.5rem;
+    font-size: 1.4em;
+  }
+
 
   /* aboutus section */
 
@@ -90,12 +95,30 @@
 
   .service__info-description {
     margin-top: 0.8rem;
+    font-size: 1.2em;
   }
 
 
   /* devices section */
 
+  .devices-wrapper,
+  .devices__device-1,
+  .devices__device-2 {
+    all: revert;
+    line-height: 0;
+  }
 
+  .devices-wrapper {
+    margin-top: 3rem;
+    position: relative;
+  }
+
+  .devices__device-2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(9rem);
+    bottom: -4rem;
+  }
 
   /* tasks section */
 
