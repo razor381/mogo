@@ -148,34 +148,8 @@
     height: calc(100% - (2 * 60.6px) - 1.3rem);
   }
 
-  .task-body,
-  .task-description,
-  .task-scrollarea {
-    all: revert;
-  }
-
   .task-body {
-    height: calc(100% - 60.6px);
-  }
-
-  .task-description {
-    font-family: Roboto;
-    font-weight: 100;
-    font-style: italic;
-    color: #999999;
-    display: inline-block;
-    vertical-align: top;
-    height: 100%;
-    width: 40%;
-    overflow: scroll;
-  }
-
-  .task-scrollarea {
-    display: inline-block;
-    vertical-align: top;
-    height: 100%;
-    width: 40%;
-
+    height: calc(100% - 60.59px - 2rem);
   }
 
 
