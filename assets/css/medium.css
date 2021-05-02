@@ -2,9 +2,13 @@
 
   /* header section */
 
+
+  .header-content {
+    padding: 0 2rem;
+  }
+
   .header__nav-sections {
     display: block;
-    background: red;
   }
 
   .header__nav-menu {
@@ -101,11 +105,7 @@
     width: 33.33%;
   }
 
-  /* @TODO: will find alternative to this */
-  .partner-link:nth-of-type(2n+1),
-  .partner-link:nth-of-type(2n),
-  .partner-link:nth-of-type(5),
-  .partner-link:nth-of-type(6) {
+  .partner-link:nth-of-type(n) {
     border: none;
     clear: none;
     border-right: 1px solid #cccccc;
@@ -140,21 +140,63 @@
   }
 
 
+  /* comments section  */
+
+
+  .comments {
+    padding: 2rem 2rem 1rem;
+  }
+
+  .comments-wrapper {
+    padding: 0 4rem;
+  }
+
+  .comment-wrapper {
+    all: revert;
+  }
+
+  .comment-user-pic {
+    width: 9rem;
+    height: 9rem;
+  }
+
+  .comment-body {
+    float: right;
+    width: calc(100% - 9rem);
+    margin: 0;
+    padding: 1rem 2rem 0 2rem;
+    text-align: left;
+  }
+
+  .testi-body {
+    padding: 0 2rem 0 2rem;
+  }
+
+
   /* sayings section */
 
 
-  .saying {
-    float: left;
-    width: 50%;
+  .sayings-content {
     padding: 0 2rem;
   }
 
+  .sayings-wrapper {
+    margin-bottom: 0;
+  }
+
+  .saying {
+    float: left;
+    margin: 2rem 0;
+    width: 50%;
+  }
+
   .saying:nth-of-type(2n+1) {
-    float: right;
+    clear: both;
   }
 
 
   /* footer section */
+
 
   .footer {
     padding: 2rem 4rem;
